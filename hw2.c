@@ -5,7 +5,7 @@ int main(void)
     float ONE_MILE = 1.609;
 
     float km, mile;
-    printf("킬로미터를 입력하세요: ");
+    printf("Please enter kilometers: ");
     scanf_s("%f", &km);
 
     mile = km / ONE_MILE;
